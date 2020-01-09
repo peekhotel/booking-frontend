@@ -1,5 +1,5 @@
-<form *ngIf="isEdit">
-  <button class="btn" (click)="showOrder()">
+<form *ngIf="isActive()">
+  <button class="btn" (click)="UnSetActive()">
     <div class="row"><div class="col-2"></div>
       <div class="col-8">
         <div class="mx-auto">

@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import {ActivePageService} from '../active-page/active-page.service';
+import {ActivePageChanger} from '../active-page-changer';
 
 @Component({
   selector: 'app-top',
   templateUrl: './top.component.html',
-  styleUrls: ['./top.component.css']
+  styleUrls: ['./top.component.css'],
 })
-export class TopComponent implements OnInit {
+export class TopComponent extends ActivePageChanger implements OnInit {
   Name = 'Пік готель';
   IDate = 'Бронювання';
   InfoHotel = 'Готель';
@@ -16,7 +18,9 @@ export class TopComponent implements OnInit {
   geticoninfomoney = '../assets/image/cash.png';
   geticonreserv = '../assets/image/pencil-minus.png';
   geticonpik = '../assets/image/mountains-with-moon.png';
-  constructor() { }
+  constructor( PageService: ActivePageService ) {
+    super(null, PageService);
+  }
 
   ngOnInit() {
   }
