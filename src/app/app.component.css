@@ -1,0 +1,32 @@
+.image{
+  height:44em; background-size:100%; width:auto;
+  background-image:url(../assets/image/drag.jpg);
+  background-position:50% 50%;
+}
+
+.body{
+
+}
+.button {
+  border: 0;
+}
+
+.navbar {
+  color: white;
+  background-color: rgba(0,0,0,.3);
+  background-blend-mode: darken;
+}
+
+.header
+{
+  width: 100%;
+}
+.kkk {
+  font-size: 18px;
+  margin: 8% ;
+  padding: 1%;
+  color: white;
+  background-color: rgba(0,0,0,.2);
+  background-blend-mode: darken;
+}
+
