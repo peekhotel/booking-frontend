@@ -5,10 +5,10 @@ import {ActivePageChanger} from '../active-page-changer';
 
 @Component({
   selector: 'app-infoh',
-  templateUrl: './infoh.component.html',
-  styleUrls: ['./infoh.component.css']
+  templateUrl: './info-hotel.component.html',
+  styleUrls: ['./info-hotel.component.css']
 })
-export class InfohComponent extends ActivePageChanger implements OnInit {
+export class InfoHotelComponent extends ActivePageChanger implements OnInit {
   InfoH = `    Готель має 14 комфортабельних номерів і розрахований на 48 осіб.\n
  Всі номери оснащені сучасним обладнанням , IP- телебаченням , новими меблями і
  звичайно санвузлами. Є сауна з кімнатою для відпочинку , Wi -Fi Інтернет - у холі готелю.\n

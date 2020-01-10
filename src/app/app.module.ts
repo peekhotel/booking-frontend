@@ -4,24 +4,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { DlDateTimeDateModule, DlDateTimePickerModule } from 'angular-bootstrap-datetimepicker';
-import {FormsModule} from '@angular/forms';
-import { NavfooterComponent } from './navfooter/navfooter.component';
-import { TopComponent } from './top/top.component';
+import { BottomMenuComponent } from './bottom-menu/bottom-menu.component';
+import { TopComponent } from './top-menu/top-menu.component';
 import { OrderComponent } from './order/order.component';
 import { InfomComponent } from './infom/infom.component';
-import { InfohComponent } from './infoh/infoh.component';
+import { InfoHotelComponent } from './info-hotel/info-hotel.component';
 import { ReservComponent } from './reserv/reserv.component';
-
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavfooterComponent,
+    BottomMenuComponent,
     TopComponent,
     OrderComponent,
     InfomComponent,
-    InfohComponent,
+    InfoHotelComponent,
     ReservComponent,
   ],
   imports: [
@@ -31,6 +31,11 @@ import { ReservComponent } from './reserv/reserv.component';
     DlDateTimeDateModule,  // <--- Determines the data type of the model
     DlDateTimePickerModule,
     FormsModule,
+    BrowserAnimationsModule,
+    BrowserModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

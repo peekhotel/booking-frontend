@@ -1,5 +1,6 @@
 .image{
-  height:44em; background-size:100%; width:auto;
+  font-family: 'Lato Regular',sans-serif;
+  height:46em; background-size:100%; width:auto;
   background-image:url(../assets/image/drag.jpg);
   background-position:50% 50%;
 }
@@ -9,12 +10,6 @@
 }
 .button {
   border: 0;
-}
-
-.navbar {
-  color: white;
-  background-color: rgba(0,0,0,.3);
-  background-blend-mode: darken;
 }
 
 .header
