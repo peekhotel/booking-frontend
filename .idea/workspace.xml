@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b956b811-deeb-4ad2-895c-45638dbc9039" name="Default Changelist" comment="" />
+    <list default="true" id="b956b811-deeb-4ad2-895c-45638dbc9039" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Exiche.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Exiche.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/top-menu/top-menu.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/top-menu/top-menu.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/top-menu/top-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/top-menu/top-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="exiche &lt;59541191+exiche@users.noreply.github.com&gt;" />
+        <option value="e" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
   <component name="ProjectId" id="1W8PWQEINnqeblmqyH49okIIb0K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pikhotel2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/info-hotel" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -24,6 +44,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\Exiche\pikhotel1\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Exiche\pikhotel1\src\app\info-hotel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Exiche\pikhotel1\src\app\top-menu" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (pikhotel)" type="JavaScriptTestRunnerKarma">
@@ -79,24 +107,69 @@
       <updated>1578528280187</updated>
       <workItem from="1578528288617" duration="633000" />
       <workItem from="1578528926213" duration="3135000" />
+      <workItem from="1578565045372" duration="1766000" />
+      <workItem from="1578570670231" duration="10429000" />
+      <workItem from="1578657078322" duration="1726000" />
+      <workItem from="1578659988475" duration="5252000" />
+      <workItem from="1578666461061" duration="3165000" />
+      <workItem from="1578673902267" duration="11005000" />
+      <workItem from="1578686434426" duration="920000" />
+      <workItem from="1578695336310" duration="963000" />
+      <workItem from="1578696330148" duration="2200000" />
     </task>
+    <task id="LOCAL-00001" summary="rename components">
+      <created>1578686089421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578686089421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rename components" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename components" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="72" key="#Inspections" timestamp="1578530630612">
+    <state x="361" y="72" key="#Inspections" timestamp="1578684352462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="72" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1578530630612" />
+    <state x="361" y="72" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1578684352462" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1578581607561">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578581607561" />
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1578698570084">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578698570084" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1578528989218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578528989218" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1578686124524">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578686124524" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578565619696">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1578565619696" />
+    <state x="0" y="0" width="740" height="824" key="find.popup" timestamp="1578696512771">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" width="740" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1578696512771" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1578530589744">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1578530589744" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1578686649713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1578686649713" />
   </component>
 </project>
