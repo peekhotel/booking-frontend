@@ -5,10 +5,12 @@ import { BottomNavComponent } from './bottom-nav/bottom-nav.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DatepickerValueComponent } from './custom-datepicker/custom-datepicker.component';
-import {MatDatepickerModule, MatFormFieldModule, MatInputModule} from '@angular/material';
+import {MatDatepickerModule, MatFormFieldModule, MatGridListModule, MatInputModule} from '@angular/material';
 
 import {ReactiveFormsModule} from '@angular/forms';
 import {MatMomentDateModule} from '@angular/material-moment-adapter';
+import { ArrivalDateComponent } from './custom-datepicker/arrival-date/arrival-date.component';
+import { DepartingDateComponent } from './custom-datepicker/departing-date/departing-date.component';
 // import {matDatepickerAnimations} from '@angular/material';
 
 @NgModule({
@@ -17,6 +19,8 @@ import {MatMomentDateModule} from '@angular/material-moment-adapter';
     BottomNavComponent,
     TopBarComponent,
     DatepickerValueComponent,
+    ArrivalDateComponent,
+    DepartingDateComponent,
   ],
   imports: [
     BrowserModule,
@@ -25,7 +29,8 @@ import {MatMomentDateModule} from '@angular/material-moment-adapter';
     MatFormFieldModule,
     MatMomentDateModule,
     MatInputModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

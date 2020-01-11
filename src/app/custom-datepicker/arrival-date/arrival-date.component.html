@@ -1,0 +1,11 @@
+<mat-form-field>
+  <input matInput
+         disabled
+         placeholder="Arrival date"
+         [matDatepicker]="arrival"
+         [min]="today"
+         [formControl]="dateControl"
+         (dateInput)="onDatePicked()">
+  <mat-datepicker-toggle matSuffix [for]="arrival"></mat-datepicker-toggle>
+  <mat-datepicker #arrival disabled="false"></mat-datepicker>
+</mat-form-field>

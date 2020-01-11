@@ -1,0 +1,18 @@
+.datepickers {
+  width: 100%;
+  /*margin-top: 150px;*/
+
+  justify-content: center;
+  justify-items: center;
+
+}
+
+.datepicker-container {
+  width: 40%;
+  min-width: 500px;
+
+}
+
+.depart{
+  transition: 1s;
+}

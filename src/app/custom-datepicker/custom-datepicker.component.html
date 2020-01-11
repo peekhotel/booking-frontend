@@ -1,23 +1,16 @@
-<mat-form-field>
-  <input matInput
-         disabled
-         placeholder="Arrival date"
-         [matDatepicker]="arrival"
-         [min]="today"
-         [formControl]="arrivalDateControl"
-         (dateChange)="clearDeparting()"  >
-  <mat-datepicker-toggle matSuffix [for]="arrival"></mat-datepicker-toggle>
-  <mat-datepicker #arrival disabled="false"></mat-datepicker>
-</mat-form-field>
+<div class="datepickers row d-flex justify-content-center">
+  <mat-grid-list cols="2" class="datepicker-container">
 
-<mat-form-field *ngIf="arrivalSelected()">
-  <input matInput
-         disabled
-         placeholder="Departing date"
-         [matDatepicker]="depart"
-         [min]="getMinimalLeaveDate()"
-         [max]="getMaximalLeaveDate()"
-         [formControl]="departingDateControl">
-  <mat-datepicker-toggle matSuffix [for]="depart"></mat-datepicker-toggle>
-  <mat-datepicker #depart disabled="false"></mat-datepicker>
-</mat-form-field>
+    <mat-grid-tile
+      [colspan]="isSelected() ? 1 : 2"
+      [@slide-left]="isSelected() ? 'open' : 'closed'">
+        <app-arrival-date></app-arrival-date>
+    </mat-grid-tile>
+
+
+    <mat-grid-tile *ngIf="isSelected()" [@slide-right]>
+      <app-departing-date></app-departing-date>
+    </mat-grid-tile>
+
+  </mat-grid-list>
+</div>

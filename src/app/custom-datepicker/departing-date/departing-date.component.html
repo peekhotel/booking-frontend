@@ -1,0 +1,11 @@
+<mat-form-field>
+  <input matInput
+         disabled
+         placeholder="Departing date"
+         [matDatepicker]="depart"
+         [min]="getMinimalLeaveDate()"
+         [max]="getMaximalLeaveDate()"
+         [formControl]="dateControl">
+  <mat-datepicker-toggle matSuffix [for]="depart"></mat-datepicker-toggle>
+  <mat-datepicker #depart disabled="false"></mat-datepicker>
+</mat-form-field>
