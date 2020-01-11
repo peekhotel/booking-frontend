@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b956b811-deeb-4ad2-895c-45638dbc9039" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Exiche.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Exiche.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/main-nav/main-nav.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/main-nav/main-nav.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/main-nav/main-nav.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/reserv/reserv.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/reserv/reserv.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/bottom-menu/bottom-menu.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/bottom-menu/bottom-menu.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/top-menu/top-menu.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/top-menu/top-menu.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/top-menu/top-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/top-menu/top-menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/top-menu/top-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/top-menu/top-menu.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/info-hotel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pikhotel2/pikhotel1" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -123,6 +120,8 @@
       <workItem from="1578732416844" duration="2762000" />
       <workItem from="1578742759795" duration="1828000" />
       <workItem from="1578745908460" duration="46000" />
+      <workItem from="1578745968122" duration="1546000" />
+      <workItem from="1578751141855" duration="6000000" />
     </task>
     <task id="LOCAL-00001" summary="rename components">
       <created>1578686089421</created>
@@ -145,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578698615060</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new menu-bar">
+      <created>1578746048466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578746048466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +161,8 @@
     <MESSAGE value="rename components" />
     <MESSAGE value="pizdec" />
     <MESSAGE value="pizdec#2" />
-    <option name="LAST_COMMIT_MESSAGE" value="pizdec#2" />
+    <MESSAGE value="new menu-bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="new menu-bar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Inspections" timestamp="1578684352462">
@@ -166,14 +173,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578581607561" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1578698613788">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1578746047385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578698613788" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1578700746185">
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578746047385" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1578746249177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578700746185" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578746249177" />
     <state x="147" y="71" key="MergeDialog" timestamp="1578701784234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -182,22 +189,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="481" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1578701784250" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1578698635365">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1578746057317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578698635365" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578746057317" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578701674285">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1578701674285" />
-    <state x="0" y="0" width="740" height="824" key="find.popup" timestamp="1578734311825">
+    <state x="0" y="0" width="740" height="824" key="find.popup" timestamp="1578753672220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" width="740" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1578734311825" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1578530589744">
+    <state x="0" y="0" width="740" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1578753672220" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1578756705731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1578530589744" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1578756705731" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1578686649713">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
