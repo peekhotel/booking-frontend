@@ -11,13 +11,8 @@ import { ReservComponent } from './reserv/reserv.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import { MainNavComponent } from './main-nav/main-nav.component';
-import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatIconModule } from '@angular/material/icon';
-import { MatListModule } from '@angular/material/list';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatIconModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -28,7 +23,6 @@ import { MatListModule } from '@angular/material/list';
     InfomComponent,
     InfoHotelComponent,
     ReservComponent,
-    MainNavComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,14 +31,12 @@ import { MatListModule } from '@angular/material/list';
     BrowserAnimationsModule,
     BrowserModule,
     HttpClientModule,
+    MatMenuModule,
     FormsModule,
     ReactiveFormsModule,
-    LayoutModule,
-    MatToolbarModule,
-    MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule,
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -12,7 +12,7 @@ export class TopComponent extends ActivePageChanger implements OnInit {
   IDate = 'Бронювання';
   InfoHotel = 'Готель';
   InfoMoney = 'Інформація про знижки';
-  reservation = 'Необхідна інформація про бронювання';
+  reservation = 'Інформація';
   geticonpik = '../assets/image/mountains-with-moon.png';
   constructor( PageService: ActivePageService ) {
     super(null, PageService);
