@@ -1,0 +1,17 @@
+<mat-nav-list ><div class="col-12"><div class="row">
+ <div class="col-12"> <a class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('InfoReserv')" >
+  <mat-icon class="far fa-calendar-alt"> </mat-icon> <span class="nav-caption">{{IDate|uppercase}}</span>
+  </a></div>
+  <div class="col-12"> <a class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('InfoHotel')" >
+  <mat-icon  class="fas fa-home"> </mat-icon><span class="nav-caption"> {{InfoHotel|uppercase}}</span>
+  </a></div>
+  <div class="col-12"> <a class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('InfoMoney')">
+    <mat-icon class="fas fa-exclamation-circle"> </mat-icon><span class="nav-caption">{{InfoMoney|uppercase}}</span>
+  </a>
+  </div>
+  <div class="col-12"> <a  class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('Order')" >
+    <mat-icon class="fas fa-info-circle"> </mat-icon><span class="nav-caption"> {{reservation|uppercase}}</span>
+  </a></div>
+</div>
+</div>
+</mat-nav-list>

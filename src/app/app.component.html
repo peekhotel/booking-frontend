@@ -1,6 +1,8 @@
-
 <div class="image">
   <app-top (sidenavToggle)="sidenav.toggle()"> </app-top>
+  <mat-sidenav #sidenav role="navigation">
+    <app-sidenav-list (sidenavClose)="sidenav.close()"></app-sidenav-list>
+  </mat-sidenav>
     <app-navfooter> </app-navfooter>
 <router-outlet></router-outlet>
   <app-order> </app-order>
@@ -8,3 +10,4 @@
   <app-infoh> </app-infoh>
 <app-reserv> </app-reserv>
 </div>
+
