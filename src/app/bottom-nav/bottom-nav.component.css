@@ -21,3 +21,6 @@ font-family: "Material Icons" !important;
 a{
   padding-left: 5px;
 }
+ li.list-group-item{
+   padding: 5px;
+ }

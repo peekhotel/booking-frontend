@@ -6,14 +6,15 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class BottomNavComponent implements OnInit {
-  information = 'Peak Hotel' + '\n' +
-    'Polonyna Dragobrat' + '\n' +
-    'village Yasinia' + '\n' +
-    'Rakhiv district' + '\n' +
-    'Zakarpatskyi region';
+  information1 = 'Peak Hotel, Polonyna Dragobrat';
+  information2 =  'village Yasinia, Rakhiv district';
+  information3 =  'Zakarpatskyi region';
+  show = false;
+  phonenumber = '+(380) 50 373 5947';
   constructor() { }
-
   ngOnInit() {
   }
-
+  showMap() {
+    this.show = !this.show;
+  }
 }

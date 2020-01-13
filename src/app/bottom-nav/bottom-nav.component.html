@@ -17,7 +17,7 @@
           <i class="material-icons">
             phone
           </i>
-          <a href="#">+380 50 3735947</a>
+          <a href="#">{{phonenumber}}</a>
         </div>
       </li>
 
@@ -30,13 +30,18 @@
         </div></li>
     </ul>
   </div>
-  <div class="col-3">
-    <span class="adress-info">{{information}}</span>
+  <div class="col-3 row align-items-center">
+    <i class="material-icons" style="color: white;">my_location</i>
+      <a href="#" class="adress-info" (click)="showMap()">
+        {{information1}} <br>
+        {{information2}} <br>
+        {{information3}} <br>
+      </a>
   </div>
   <div class="col-3">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2657.023578636634!2d24.24212431517766!3d48.24467355167536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4737100582c05fcd%3A0x86014506938d7240!2sPik%20Hotel%CA%B9!5e0!3m2!1sru!2sua!4v1578869570992!5m2!1sru!2sua"
+    <iframe *ngIf="show" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2657.023578636634!2d24.24212431517766!3d48.24467355167536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4737100582c05fcd%3A0x86014506938d7240!2sPik%20Hotel%CA%B9!5e0!3m2!1sru!2sua!4v1578869570992!5m2!1sru!2sua"
             width="300"
-            height="225"
+            height="160"
             frameborder="0"
             style="border:0;"
             allowfullscreen=""></iframe>
