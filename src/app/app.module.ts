@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {EventEmitter, NgModule, Output} from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BottomMenuComponent } from './bottom-menu/bottom-menu.component';
@@ -11,9 +11,9 @@ import { ReservComponent } from './reserv/reserv.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {MatMenuModule} from '@angular/material/menu';
+import {MatButtonModule, MatIconModule, MatListModule, MatMenuModule, MatToolbarModule} from '@angular/material';
 import {ExtendedModule, FlexModule} from '@angular/flex-layout';
-import {MatIconModule} from '@angular/material/icon';
+
 
 @NgModule({
   declarations: [
@@ -26,22 +26,26 @@ import {MatIconModule} from '@angular/material/icon';
     ReservComponent,
   ],
   imports: [
+    MatButtonModule,
+    MatIconModule,
+    MatMenuModule,
+    MatToolbarModule,
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
     BrowserModule,
     HttpClientModule,
-    MatMenuModule,
     FormsModule,
     ReactiveFormsModule,
-    MatIconModule,
     ExtendedModule,
     FlexModule,
+    MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
+
 }
 

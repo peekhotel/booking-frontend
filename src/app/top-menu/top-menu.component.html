@@ -1,31 +1,96 @@
-<div class="header fixed-top"><div class="row">
-  <div class="col-3">
-    <div class="col-12 stylebut">
-    <a class="but" ><img src="{{geticonpik}}" height="22" width="35" alt=" "> {{Name|uppercase}}</a>
-    <mat-menu #aboveMenu="matMenu" yPosition="above">
-    </mat-menu></div></div>
-  <div class="col-2" >
-    <div class="col-12 stylebut">
-    <a class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('InfoReserv')" ><i class="far fa-calendar-alt"></i> {{IDate|uppercase}} <span class="sr-only">(current)</span></a>
-    <mat-menu #belowMenu="matMenu" yPosition="below">
-    </mat-menu></div></div>
-  <div class="col-2">
-    <div class="col-12 stylebut">
-    <a class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('InfoHotel')" ><i class="fas fa-home">  </i> {{InfoHotel|uppercase}}</a>
-    <mat-menu #beforeMenu="matMenu" xPosition="before">
-    </mat-menu></div></div>
-  <div class="col-3">
-  <div class="col-12 stylebut">
-    <a class="but" (click)="PageService.SetActivePageString('InfoMoney')" ><i class="fas fa-exclamation-circle"></i> {{InfoMoney|uppercase}}</a>
-    <mat-menu #afterMenu="matMenu" xPosition="after">
-    </mat-menu></div></div>
-  <div class="col-2">
-    <div class="col-12 stylebut">
-    <a  class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('Order')" > <i class="fas fa-info-circle"></i> {{reservation|uppercase}} </a>
-    <mat-menu #beforeMenu="matMenu" xPosition="before">
-    </mat-menu></div></div>
+<!--<div class="header fixed-top">-->
 
+<!--  <div class="row">-->
+
+<!--  <div class="col-3">-->
+<!--    <div class="col-12 stylebut">-->
+<!--      <a class="but" ><img src="{{geticonpik}}" height="22" width="35" alt=" "> {{Name|uppercase}}</a>-->
+<!--      <mat-menu #aboveMenu="matMenu" yPosition="above">-->
+<!--      </mat-menu>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  <div class="col-2" >-->
+<!--    <div class="col-12 stylebut">-->
+<!--      <a class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('InfoReserv')" ><i class="far fa-calendar-alt"></i> {{IDate|uppercase}} <span class="sr-only">(current)</span></a>-->
+<!--      <mat-menu #belowMenu="matMenu" yPosition="below">-->
+<!--      </mat-menu>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  <div class="col-2">-->
+<!--    <div class="col-12 stylebut">-->
+<!--      <a class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('InfoHotel')" ><i class="fas fa-home">  </i> {{InfoHotel|uppercase}}</a>-->
+<!--      <mat-menu #beforeMenu="matMenu" xPosition="before">-->
+<!--      </mat-menu>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  <div class="col-3">-->
+<!--    <div class="col-12 stylebut">-->
+<!--      <a class="but" (click)="PageService.SetActivePageString('InfoMoney')" ><i class="fas fa-exclamation-circle"></i> {{InfoMoney|uppercase}}</a>-->
+<!--      <mat-menu #afterMenu="matMenu" xPosition="after">-->
+<!--      </mat-menu>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  <div class="col-2">-->
+<!--    <div class="col-12 stylebut">-->
+<!--      <a  class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('Order')" > <i class="fas fa-info-circle"></i> {{reservation|uppercase}} </a>-->
+<!--      <mat-menu #beforeMenu="matMenu" xPosition="before">-->
+<!--      </mat-menu>-->
+<!--    </div>-->
+<!--  </div>-->
+
+<!--  </div>-->
+<!--  -->
+<!--</div>-->
+
+
+<!--<mat-toolbar color="primary">-->
+<!--  <span class="fill-remaining-space">-->
+<!--    <button mat-icon-button [matMenuTriggerFor]="menu">-->
+<!--      <mat-icon>menu</mat-icon>-->
+<!--    </button>-->
+<!--    <mat-menu #menu="matMenu" [overlapTrigger]="false">-->
+<!--      <button mat-menu-item>-->
+<!--        <mat-icon>home</mat-icon>-->
+<!--        <span>Home</span>-->
+<!--      </button>-->
+<!--      <button mat-menu-item>-->
+<!--        <mat-icon>people_outline</mat-icon>-->
+<!--        <span>Connecting</span>-->
+<!--      </button>-->
+<!--      <button mat-menu-item>-->
+<!--        <mat-icon>videocam</mat-icon>-->
+<!--        <span>Let's talk</span>-->
+<!--      </button>-->
+<!--      <button mat-menu-item>-->
+<!--        <mat-icon>exit_to_app</mat-icon>-->
+<!--        <span>Logout</span>-->
+<!--      </button>-->
+<!--    </mat-menu>-->
+<!--  </span>-->
+<!--  <span class="fill-remaining-space">Application Title</span>-->
+<!--</mat-toolbar>-->
+
+<mat-toolbar color="primary">
+  <div fxHide.gt-xs>
+    <button mat-icon-button (click)="onToggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
   </div>
-</div>
-
-
+  <div>
+    <a routerLink="/home">Owner-Account</a>
+  </div>
+  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+    <ul fxLayout fxLayoutGap="15px" class="navigation-items">
+      <li>
+        <a routerLink="/owner">Owner Actions</a>
+      </li>
+      <li>
+        <a routerLink="/account">Account Actions</a>
+      </li>
+    </ul>
+  </div>
+</mat-toolbar>
