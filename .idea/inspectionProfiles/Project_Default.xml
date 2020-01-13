@@ -4,8 +4,17 @@
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="1">
+          <list size="10">
             <item index="0" class="java.lang.String" itemvalue="{{stylenav}}" />
+            <item index="1" class="java.lang.String" itemvalue="layout" />
+            <item index="2" class="java.lang.String" itemvalue="ui-sref" />
+            <item index="3" class="java.lang.String" itemvalue="flex" />
+            <item index="4" class="java.lang.String" itemvalue="fxhide.gt-xs" />
+            <item index="5" class="java.lang.String" itemvalue="fxflex" />
+            <item index="6" class="java.lang.String" itemvalue="fxlayout" />
+            <item index="7" class="java.lang.String" itemvalue="fxlayoutgap" />
+            <item index="8" class="java.lang.String" itemvalue="fxlayoutalign" />
+            <item index="9" class="java.lang.String" itemvalue="fxhide.xs" />
           </list>
         </value>
       </option>
@@ -14,7 +23,7 @@
     <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="8">
+          <list size="17">
             <item index="0" class="java.lang.String" itemvalue="nobr" />
             <item index="1" class="java.lang.String" itemvalue="noembed" />
             <item index="2" class="java.lang.String" itemvalue="comment" />
@@ -23,6 +32,15 @@
             <item index="5" class="java.lang.String" itemvalue="script" />
             <item index="6" class="java.lang.String" itemvalue="div" />
             <item index="7" class="java.lang.String" itemvalue="app-header" />
+            <item index="8" class="java.lang.String" itemvalue="ng-md-icon" />
+            <item index="9" class="java.lang.String" itemvalue="md-tooltip" />
+            <item index="10" class="java.lang.String" itemvalue="md-item-content" />
+            <item index="11" class="java.lang.String" itemvalue="md-list" />
+            <item index="12" class="java.lang.String" itemvalue="md-sidenav" />
+            <item index="13" class="java.lang.String" itemvalue="md-item" />
+            <item index="14" class="java.lang.String" itemvalue="md-divider" />
+            <item index="15" class="java.lang.String" itemvalue="md-menu-item" />
+            <item index="16" class="java.lang.String" itemvalue="md-button" />
           </list>
         </value>
       </option>

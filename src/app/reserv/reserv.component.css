@@ -1,9 +1,8 @@
 .kkk {
   font-size: 18px;
-  margin: 8% ;
+  margin: 15% ;
   padding: 3%;
   color: white;
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0,0,0,.6);
   background-blend-mode: darken;
 }
-

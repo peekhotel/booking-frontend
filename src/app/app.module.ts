@@ -12,7 +12,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatMenuModule} from '@angular/material/menu';
-import {MatIconModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
+import {ExtendedModule, FlexModule} from '@angular/flex-layout';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -34,9 +35,9 @@ import {MatIconModule, MatSidenavModule, MatToolbarModule} from '@angular/materi
     MatMenuModule,
     FormsModule,
     ReactiveFormsModule,
-    MatSidenavModule,
     MatIconModule,
-    MatToolbarModule,
+    ExtendedModule,
+    FlexModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
