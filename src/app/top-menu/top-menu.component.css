@@ -1,20 +1,13 @@
-.header{
-    color: white;
-    background-color: rgba(0,0,0,0.5);
+.header {
+  color: white;
+  background-color: rgba(0,0,0,0.5);
   background-blend-mode: darken;
 
 }
-/*.but{*/
-/*width: 100%;*/
-/*  color: white ;*/
-/*  font-size: 16px;*/
-/*  padding: 4%;*/
-/*}*/
-/*.stylebut{*/
-/*  background-color: rgba(0,0,0,0.7);*/
-/*  background-blend-mode: darken;*/
-/*  padding: 5px;*/
-/*}*/
+.stylebut{
+
+  padding: 5px;
+}
 a {
   text-decoration: none;
   color: white;
@@ -39,3 +32,4 @@ mat-toolbar{
     border-radius: 0px;
   }
 }
+

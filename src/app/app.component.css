@@ -1,5 +1,6 @@
 .image{
-  font-family: 'Lato Regular',sans-serif,upper;
+  font-family: "Playfair Display Italic",Georgia;
+  font-style: italic;
    width:auto;height:100%;
   background-image:url(../assets/image/drag.jpg);
   background-position:50% 50%;

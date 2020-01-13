@@ -13,4 +13,6 @@ a:hover, a:active{
 }
 .but{
   color: white;
+  /*background-color: rgba(0,0,0,0.7);*/
+  /*background-blend-mode: darken;*/
 }
