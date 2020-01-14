@@ -14,7 +14,7 @@ export class TopComponent extends ActivePageChanger implements OnInit {
 
   @Output() public sidenavToggle = new EventEmitter();
 
-  Name = 'Пік готель';
+  Name = 'Пік Готель';
   IDate = 'Бронювання';
   InfoHotel = 'Готель';
   InfoMoney = 'Інформація про знижки';

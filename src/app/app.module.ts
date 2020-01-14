@@ -11,9 +11,19 @@ import { ReservComponent } from './reserv/reserv.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {MatButtonModule, MatIconModule, MatListModule, MatMenuModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
+import {
+  MatButtonModule,
+  MatIconModule,
+  MatListModule,
+  MatMenuModule,
+  MatPaginatorModule,
+  MatSidenavModule, MatTableModule,
+  MatToolbarModule
+} from '@angular/material';
 import {ExtendedModule, FlexModule} from '@angular/flex-layout';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { TableroomComponent } from './tableroom/tableroom.component';
+import { NumberinfoComponent } from './numberinfo/numberinfo.component';
 
 
 @NgModule({
@@ -26,6 +36,8 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     InfoHotelComponent,
     ReservComponent,
     SidenavListComponent,
+    TableroomComponent,
+    NumberinfoComponent,
   ],
   imports: [
     MatButtonModule,
@@ -44,6 +56,8 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     FlexModule,
     MatListModule,
     MatSidenavModule,
+    MatPaginatorModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
