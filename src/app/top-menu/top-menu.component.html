@@ -48,7 +48,7 @@
 
 
 <mat-toolbar color="primary" class="header">
-  <div fxHide.gt-xs >
+  <div fxHide.gt-sm>
     <button mat-icon-button (click)="onToggleSidenav()">
       <mat-icon>menu</mat-icon>
     </button>
@@ -56,19 +56,19 @@
   <div>
     <a class="but" (click)="PageService.SetActivePageString('InfoReserv')" ><img src="{{geticonpik}}" height="22" width="35" alt=" "> {{Name}}</a>
   </div>
-  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+  <div fxFlex fxLayout fxLayoutAlign="end" fxHide.sm fxHide.xs>
     <ul fxLayout fxLayoutGap="15px" class="navigation-items">
       <li>
         <a class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('reservation')" ><i class="far fa-calendar-alt"></i> {{IDate}} <span class="sr-only">(current)</span></a>
       </li>
       <li>
-        <a class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('numberinfo')" ><i class="far fa-calendar-alt"></i> Ціни на номера <span class="sr-only">(current)</span></a>
+        <a class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('numberinfo')" ><i class="fas fa-hryvnia"></i> {{Numberinfo}} <span class="sr-only">(current)</span></a>
       </li>
       <li>
         <a class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('InfoHotel')" ><i class="fas fa-home">  </i> {{InfoHotel}}</a>
       </li>
       <li>
-        <a class="but" (click)="PageService.SetActivePageString('InfoMoney')" ><i class="fas fa-exclamation-circle"></i> {{InfoMoney}}</a>
+        <a class="but" style="padding: 5%;" (click)="PageService.SetActivePageString('InfoMoney')" ><i class="fas fa-exclamation-circle"></i> {{InfoMoney}}</a>
       </li>
     <li>
       <a  class="but" style="padding: 5%" (click)="PageService.SetActivePageString('Order')" > <i class="fas fa-info-circle"></i> {{reservation  }} </a>

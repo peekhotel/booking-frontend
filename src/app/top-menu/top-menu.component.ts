@@ -20,8 +20,7 @@ export class TopComponent extends ActivePageChanger implements OnInit {
   InfoMoney = 'Інформація про знижки';
   reservation = 'Інформація';
   geticonpik = '../assets/image/method-draw-image (1).svg';
-  sidenav: any;
-
+  Numberinfo = 'Ціни на номера';
   ngOnInit() {
   }
   public onToggleSidenav = () => {

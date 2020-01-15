@@ -8,6 +8,7 @@
       <w>geticoninfomoney</w>
       <w>geticonpik</w>
       <w>geticonreserv</w>
+      <w>hryvnia</w>
       <w>infob</w>
       <w>infod</w>
       <w>infoh</w>
@@ -15,11 +16,16 @@
       <w>infom</w>
       <w>navbar</w>
       <w>navfooter</w>
+      <w>numberinfo</w>
+      <w>numberpeople</w>
+      <w>numberrooms</w>
       <w>pikhotel</w>
       <w>reserv</w>
       <w>reservationinfo</w>
       <w>resev</w>
       <w>stylebut</w>
+      <w>tableroom</w>
+      <w>tablexroom</w>
       <w>toggler</w>
       <w>translatex</w>
     </words>

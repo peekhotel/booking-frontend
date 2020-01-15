@@ -9,12 +9,11 @@ import {ActivePageService} from '../../active-page/active-page.service';
 })
 export class  SidenavListComponent extends ActivePageChanger implements OnInit {
   @Output() sidenavClose = new EventEmitter();
-  Name = 'Пік готель';
   IDate = 'Бронювання';
   InfoHotel = 'Готель';
   InfoMoney = 'Інформація про знижки';
   reservation = 'Інформація';
-  geticonpik = '../assets/image/method-draw-image (1).svg';
+  numberinfo = 'Ціни на номера';
 
   constructor( PageService: ActivePageService ) {
     super(null, PageService);

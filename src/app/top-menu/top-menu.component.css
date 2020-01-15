@@ -27,7 +27,6 @@ a:hover, a:active{
 .navigation-items{
   list-style-type: none;
   padding: 0;
-  margin-right: 5%;
   margin-top: 1%;
 }
 
@@ -35,8 +34,8 @@ mat-toolbar{
   border-radius: 3px;
 }
 
-@media(max-width: 959px){
-  mat-toolbar{
-    border-radius: 0px;
-  }
-}
+/*@media(max-width: 959px){*/
+/*  mat-toolbar{*/
+/*    border-radius: 0px;*/
+/*  }*/
+/*}*/

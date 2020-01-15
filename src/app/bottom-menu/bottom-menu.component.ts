@@ -11,9 +11,8 @@ export class BottomMenuComponent implements OnInit {
   contact = 'Контакти';
   InfoM = '  pikhotel@gmail.com';
   InfoN = '  +380503735947';
-
-  constructor() { }
-
+  constructor() {
+  }
   ngOnInit() {
   }
 
